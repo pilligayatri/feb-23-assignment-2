@@ -1,0 +1,9 @@
+n=int(input("how many numbers"))
+l=[]
+for i in range(n):
+    d=int(input("enter a number"))
+    l.append(d)
+    print(l)
+reversed_l=reversed(l)
+reversed(l)
+print("reversed elements of a list are:",list(reversed_l))
